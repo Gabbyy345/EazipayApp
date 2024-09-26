@@ -1,0 +1,59 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F1F1;
+    
+    font-family: Aeonik;
+
+
+}
+a{
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+  color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 8rem;
+    align-items: center;
+    
+}
+.Btn{
+    display: flex;
+    gap: 3rem;
+}
+.btn{
+    width: Fixed (168px)px;
+    height: Hug (40px)px;
+    padding: 10px 32px 10px 32px;
+    gap: 2px;
+    border-radius: 24px ;
+    border: 1px solid #11453B;
+    opacity: 0px;
+    background-color: transparent;
+    color: #11453B;
+
+}
+.btn1{
+    width: Fixed (168px)px;
+    height: Hug (40px)px;
+    padding: 10px 32px 10px 32px;
+    gap: 2px;
+    border-radius: 24px ;
+    border: 1px solid white;
+    opacity: 0px;
+    background-color:#11453B ;
+    color: white;
+}
