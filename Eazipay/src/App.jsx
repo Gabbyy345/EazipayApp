@@ -4,6 +4,7 @@ import Navbar from './component/Navbar/Navbar'
 import { Routes } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 import Hero from './component/Hero/Hero'
+import Page from './component/Individual page/Page'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Route element={<Navbar/>} path='/'/>
       </Routes>
       <Hero/>
+      <Page />
   
     </div>
   )

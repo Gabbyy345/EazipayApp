@@ -1,0 +1,51 @@
+.individual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.H1{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: left;
+    color: #11453B;
+    
+}
+.individual p{
+    font-family: Aeonik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.d{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.box{
+    width: 100px ;
+    height: 100px;
+    background-color: #11453B;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.box.open{
+    width: 300px;
+    height: 200px;
+}
+.content{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.box.open.content{
+    opacity: 1;
+}
